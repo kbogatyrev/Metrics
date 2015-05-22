@@ -1,0 +1,12 @@
+Poem * pP = new Poem(sText, L"C:\\git-repos\\Phelp\\zal.db3");
+	int sum = 0;
+	for (int i = 0; i < pP->m_Verses.size(); i++){
+		bool b = false;
+		for (vector<stressPos>::iterator it = pP->m_Verses[i]->m_Matrix.begin(); it != pP->m_Verses[i]->m_Matrix.end(); ++it){
+			stressPos n = *it;
+			if (n.second == UNKNOWN)
+				b = true;
+		}
+		if (b)
+			sum++;
+	}
