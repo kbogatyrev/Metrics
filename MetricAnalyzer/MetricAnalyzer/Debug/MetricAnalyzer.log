@@ -1,0 +1,17 @@
+﻿Сборка начата 5/21/2015 11:55:07 PM.
+     1>Проект "C:\git-repos\Metrics\MetricAnalyzer\MetricAnalyzer\MetricAnalyzer.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\MetricAnalyzer.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt MetricAnalyzer.cpp
+         MetricAnalyzer.cpp
+     1>c:\git-repos\metrics\metricanalyzer\metricanalyzer\readtxts.h(21): warning C4244: аргумент: преобразование "std::streamoff" в "unsigned int", возможна потеря данных
+     1>c:\git-repos\metrics\metricanalyzer\metricanalyzer\metricanalyzer.cpp(53): warning C4018: <: несоответствие типов со знаком и без знака
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\git-repos\Metrics\MetricAnalyzer\Debug\MetricAnalyzer.exe" /INCREMENTAL /NOLOGO MainLib.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\git-repos\Metrics\MetricAnalyzer\Debug\MetricAnalyzer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\git-repos\Metrics\MetricAnalyzer\Debug\MetricAnalyzer.lib" /MACHINE:X86 Debug\MetricAnalyzer.obj
+         Debug\Poem.obj
+         Debug\stdafx.obj
+         MetricAnalyzer.vcxproj -> C:\git-repos\Metrics\MetricAnalyzer\Debug\MetricAnalyzer.exe
+     1>Сборка проекта "C:\git-repos\Metrics\MetricAnalyzer\MetricAnalyzer\MetricAnalyzer.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:02.37

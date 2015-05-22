@@ -1,0 +1,3 @@
+; MetricAnalyzer.def : Declares the module parameters.
+
+LIBRARY      "MetricAnalyzer.DLL"

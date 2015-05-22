@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MetricAnalyzer", "MetricAnalyzer\MetricAnalyzer.vcxproj", "{C29AF1F2-BB79-4349-9ABC-763F88D3EE20}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Wrap", "Wrap\Wrap.vcxproj", "{9EBAF9E3-DC40-43D2-8842-3D410892E491}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C29AF1F2-BB79-4349-9ABC-763F88D3EE20}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C29AF1F2-BB79-4349-9ABC-763F88D3EE20}.Debug|Win32.Build.0 = Debug|Win32
+		{C29AF1F2-BB79-4349-9ABC-763F88D3EE20}.Release|Win32.ActiveCfg = Release|Win32
+		{C29AF1F2-BB79-4349-9ABC-763F88D3EE20}.Release|Win32.Build.0 = Release|Win32
+		{9EBAF9E3-DC40-43D2-8842-3D410892E491}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9EBAF9E3-DC40-43D2-8842-3D410892E491}.Debug|Win32.Build.0 = Debug|Win32
+		{9EBAF9E3-DC40-43D2-8842-3D410892E491}.Release|Win32.ActiveCfg = Release|Win32
+		{9EBAF9E3-DC40-43D2-8842-3D410892E491}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
